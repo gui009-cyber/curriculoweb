@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quem sou Eu</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* CONFIGURAÇÃO GLOBAL */
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:rgb(1, 77, 131);
+color:#ffffff;
+line-height:1.6;
+padding:30px;
+transition:0.4s;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
+/* CABEÇALHO */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+margin-bottom:40px;
+}
+
+header h1{
+font-size:2.5rem;
+color:rgb(255, 255, 255);
+border-bottom:4px solid  hsl(128, 90%, 28%);
+padding-bottom:6px;
+display:inline-block;
+}
+
+header h2{
+font-size:1rem;
+font-weight:normal;
+margin-top:10px;
+color:#ffffff;
+}
+
+/* AVATAR */
+
+.avatar{
+width:160px;
+height:160px;
+border-radius:50%;
+overflow:hidden;
+border:3px solid hsl(128, 90%, 28%);
+}
+
+.avatar img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+/* TEXTO */
+
+main p{
+text-align:justify;
+margin-bottom:20px;
+font-size:1.05rem;
+}
+
+/* HABILIDADES */
+
+.habilidades{
+margin-top:20px;
+}
+
+.habilidades ul{
+padding-left:20px;
+}
+
+/* BOTÕES */
+
+.btn-area{
+margin-top:30px;
+}
+
+/* BOTÃO CURRÍCULO */
+
+.btn-cv{
+background:black;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+}
+
+.btn-cv:hover{
+background: hsl(128, 90%, 28%);
+color:black;
+}
+
+/* BOTÃO IMPRIMIR */
+
+.btn-print{
+background: hsl(128, 90%, 28%);
+color:white;
+padding:10px 20px;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+border:none;
+cursor:pointer;
+}
+
+.btn-print:hover{
+background: hsl(128, 90%, 28%);
+color:white;
+}
+
+/* BOTÃO DARK MODE */
+
+.btn-theme{
+background:rgb(255, 255, 255);
+color: hsl(128, 90%, 28%);
+padding:10px 20px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn-theme:hover{
+opacity:0.8;
+}
+
+/* RODAPÉ */
+
+.social-footer{
+margin-top:50px;
+padding-top:20px;
+border-top:2px solid  hsl(128, 90%, 28%);
+text-align:center;
+}
+
+.social-footer a{
+margin:0 15px;
+font-size:28px;
+color:rgb(255, 255, 255);
+transition:0.3s;
+}
+
+.social-footer a:hover{
+color: hsl(128, 90%, 28%);
+transform:scale(1.2);
+}
+
+/* CONTATO PARA IMPRESSÃO */
+
+.contato-print{
+display:none;
+margin-top:30px;
+}
+
+/* DARK MODE */
+
+.dark-mode{
+background:#121212;
+color:#eee;
+}
+
+.dark-mode header h1{
+color:white;
+}
+
+.dark-mode .social-footer a{
+color:white;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+.avatar{
+margin-top:20px;
+}
+
+}
+
+/* IMPRESSÃO */
+
+@media print{
+
+.btn-area{
+display:none;
+}
+
+.social-footer{
+display:none;
+}
+
+.contato-print{
+display:block;
+}
+
+body{
+margin:0;
+}
+
+.container{
+max-width:800px;
+margin:auto;
+}
+
+p{
+font-size:12pt;
+line-height:1.4;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div>
+
+<h1>Guilherme Thiago dos Santos Andrade</h1>
+
+<h2 >
+Web Designer • Desenvolvimento de sistemas • Programador •
+</h2>
+
+</div>
+
+<div class="avatar">
+<img src="images.jpg" alt="Avatar">
+</div>
+
+</header>
+
+<main>
+
+    <h1 style="color:  hsl(128, 90%, 28%);">
+        Desenvolvedor Web Full Stack em Formação 
+    </h1>
+    <br>
+
+<p>
+
+    Sou um desenvolvedor iniciante dedicado a dominar o ecossistema de desenvolvimento web e ciência de dados. Atualmente, foco minha energia no aprendizado prático de HTML, CSS, Front-end e Back-end, construindo as bases para criar aplicações modernas e funcionais.
+</p>
+
+<p>
+
+    Minha trajetória anterior em gestão e educação, somada à base em Matemática e Filosofia, é o que acelera minha curva de aprendizado. Encaro o código com o raciocínio lógico de quem resolve problemas complexos há anos, mas com a mentalidade de aprendiz necessária para absorver novas tecnologias diariamente.
+
+</p>
+
+<p>
+
+    Meu objetivo atual: Conquistar minha primeira oportunidade técnica para aplicar meus estudos em projetos reais, contribuindo com código, organização e uma visão analítica apurada para otimizar processos e gerar soluções inovadoras.
+
+</p>
+
+<div class="habilidades">
+
+<h3>Principais habilidades</h3>
+
+<ul>
+
+<li>Comunicação Eficaz</li>
+<li>Adaptabilidade/Flexibilidade</li>
+<li>Trabalho em equipe</li>
+<li>Gestão do Tempo e Proatividade</li>
+<li>Resolução de problemas e pensamento crítico</li>
+
+</ul>
+
+</div>
+
+<!-- BOTÕES -->
+
+<div class="btn-area">
+
+<button onclick="window.print()" class="btn-print">
+<i class="fa-solid fa-print"></i> Imprimir Currículo
+</button>
+
+<button onclick="toggleTheme()" class="btn-theme">
+<i class="fa-solid fa-moon"></i> Dark Mode
+</button>
+
+</div>
+
+<!-- CONTATO PARA IMPRESSÃO -->
+
+<section class="contato-print">
+
+<h3>Contato</h3>
+
+<p>
+
+Email: guilhermethiago.3001@gmail.com<br>
+WhatsApp: +55 11 93949-0815<br>
+GitHub:github.com/gui009-cyber<br>
+
+</p>
+
+</section>
+
+</main>
+
+<footer class="social-footer">
+
+<a href="https://wa.me/5511914851170" target="_blank">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<a href="guilhermethiago.3001@gmail.com">
+<i class="fa-solid fa-envelope"></i>
+</a>
+
+</a>
+
+<a href="https://github.com/gui009-cyber" target="_blank">
+<i class="fa-brands fa-github"></i>
+</a>
+
+
+</footer>
+
+</div>
+
+<script>
+
+function toggleTheme(){
+document.body.classList.toggle("dark-mode");
+}
+
+</script>
+
+</body>
+</html>
